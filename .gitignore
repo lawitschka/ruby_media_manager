@@ -13,3 +13,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore config files
+/config/database.yml
+
+# Ignore Pow config
+.powrc
