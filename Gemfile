@@ -13,6 +13,7 @@ gem 'streamio-ffmpeg',            '~> 0.9.0'
 
 # Media APIs
 gem 'tvdb_party',                 :git => 'git@github.com:lawitschka/tvdb_party.git'
+gem 'ruby-tmdb',                  '~> 0.2.1'
 
 
 
@@ -47,6 +48,9 @@ group :development do
   gem 'better_errors',            '~> 0.7.0'
   gem 'binding_of_caller',        '~> 0.7.1'
   gem 'meta_request',             '~> 0.2.2'
+
+  # Awesome Print
+  gem 'awesome_print'
 end
 
 
