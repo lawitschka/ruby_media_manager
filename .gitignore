@@ -15,7 +15,7 @@
 /tmp
 
 # Ignore config files
-/config/database.yml
+/config/*.yml
 
 # Ignore Pow config
 .powrc
