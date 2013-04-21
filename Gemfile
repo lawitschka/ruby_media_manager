@@ -11,9 +11,12 @@ gem 'kaminari',                   '~> 0.14.1'
 # Video processing
 gem 'streamio-ffmpeg',            '~> 0.9.0'
 
+# Better HTTP Client
+gem 'httparty',                   '~> 0.11.0'
+
 # Media APIs
-gem 'tvdb_party',                 :git => 'git@github.com:lawitschka/tvdb_party.git'
-gem 'ruby-tmdb',                  '~> 0.2.1'
+# gem 'tvdb_party',                 :git => 'git@github.com:lawitschka/tvdb_party.git'
+# gem 'ruby-tmdb',                  '~> 0.2.1'
 
 
 
