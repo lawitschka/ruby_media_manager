@@ -8,6 +8,9 @@ gem 'jquery-rails'
 # Pagination
 gem 'kaminari',                   '~> 0.14.1'
 
+# Navigation helper
+gem 'active_link_to',             '~> 1.0.0'
+
 # Video processing
 gem 'streamio-ffmpeg',            '~> 0.9.0'
 
