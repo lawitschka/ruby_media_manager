@@ -25,7 +25,11 @@ gem 'uglifier',                   '>= 1.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails',               '~> 3.1.0'
 
+# Use Emblem.js for Handlebars.js templates
+gem 'emblem-rails',               '~> 0.2.1'
 
+# Use HAML for HTML templates
+gem 'haml-rails',                 '~> 0.5.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
