@@ -24,14 +24,54 @@ gem 'haml-rails',                 '~> 0.5.3'
 # Video processing
 gem 'streamio-ffmpeg',            '~> 1.0.0'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+# Gems only used in test and development environments
+group :test, :development do
+  # SQLite support for faster tests
+  gem 'sqlite3',                  '~> 1.3.8'
 
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
+  # Guard
+  gem 'guard',                      '~> 2.2.4',   require: false
+  gem 'guard-pow',                  '~> 2.0.0',   require: false
+  gem 'guard-rspec',                '~> 4.2.0',   require: false
+  gem 'guard-bundler',              '~> 2.0.0',   require: false
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+  # Pry console
+  gem 'pry',                        '~> 0.9.12.4'
+  gem 'pry-rails',                  '~> 0.3.2'
+  gem 'pry-byebug',                 '~> 1.2.1'
+  gem 'pry-stack_explorer',         '~> 0.4.9.1'
+
+  # Console formatting
+  gem 'awesome_print',              '~> 1.2.0'
+
+  # RSpec testing instead of Test::Unit
+  gem 'rspec-rails',                '~> 2.14.0'
+
+  # Better errors in browser
+  gem 'better_errors',              '~> 1.0.1'
+  gem 'binding_of_caller',          '~> 0.7.2'
+  gem 'meta_request',               '~> 0.2.8'
+end
+
+# Test environment gems
+group :test do
+  # Fast Faker for dummy data creation
+  gem 'ffaker',                     '~> 1.22.1'
+
+  # Object factory
+  gem 'factory_girl_rails',         '~> 4.3.0'
+
+  # ActiveModel and ActiveRecord test helpers
+  gem 'shoulda-matchers',           '~> 2.5.0'
+
+  # Mountain Lion native notifications
+  gem 'terminal-notifier-guard',    '~> 1.5.3'
+
+  # Test coverage
+  gem 'simplecov',                  '~> 0.8.2'
+  gem 'simplecov-rcov',             '~> 0.2.3'
+
+  # Mock framework
+  gem 'rr',                         '~> 1.1.2'
+end
