@@ -31,6 +31,9 @@ gem 'emblem-rails',               '~> 0.2.1'
 # Use HAML for HTML templates
 gem 'haml-rails',                 '~> 0.5.3'
 
+# Video processing
+gem 'streamio-ffmpeg',            '~> 1.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
