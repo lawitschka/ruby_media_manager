@@ -77,4 +77,7 @@ RubyMediaManager::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Ember environment
+  config.ember.variant = :production
 end
