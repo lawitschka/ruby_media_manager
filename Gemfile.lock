@@ -228,7 +228,7 @@ DEPENDENCIES
   pry-stack_explorer (~> 0.4.9.1)
   rails (~> 4.0.2)
   rr (~> 1.1.2)
-  rspec-rails (~> 2.14.0)
+  rspec-rails (~> 2.14.1)
   sass-rails (~> 4.0.0)
   shoulda-matchers (~> 2.5.0)
   simplecov (~> 0.8.2)

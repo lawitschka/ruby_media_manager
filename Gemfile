@@ -46,7 +46,7 @@ group :test, :development do
   gem 'awesome_print',              '~> 1.2.0'
 
   # RSpec testing instead of Test::Unit
-  gem 'rspec-rails',                '~> 2.14.0'
+  gem 'rspec-rails',                '~> 2.14.1'
 
   # Better errors in browser
   gem 'better_errors',              '~> 1.0.1'
