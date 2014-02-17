@@ -33,7 +33,4 @@ RubyMediaManager::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
-
-  # Ember environment
-  config.ember.variant = :development
 end
