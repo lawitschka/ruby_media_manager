@@ -31,7 +31,7 @@ group :test, :development do
   gem 'sqlite3',                  '~> 1.3.8'
 
   # Guard
-  gem 'guard',                      '~> 2.2.4',   require: false
+  gem 'guard',                      '~> 2.4.0',   require: false
   gem 'guard-pow',                  '~> 2.0.0',   require: false
   gem 'guard-rspec',                '~> 4.2.0',   require: false
   gem 'guard-bundler',              '~> 2.0.0',   require: false
@@ -39,7 +39,7 @@ group :test, :development do
   # Pry console
   gem 'pry',                        '~> 0.9.12.4'
   gem 'pry-rails',                  '~> 0.3.2'
-  gem 'pry-byebug',                 '~> 1.2.1'
+  gem 'pry-byebug',                 '~> 1.3.1'
   gem 'pry-stack_explorer',         '~> 0.4.9.1'
 
   # Console formatting
@@ -49,7 +49,7 @@ group :test, :development do
   gem 'rspec-rails',                '~> 2.14.1'
 
   # Better errors in browser
-  gem 'better_errors',              '~> 1.0.1'
+  gem 'better_errors',              '~> 1.1.0'
   gem 'binding_of_caller',          '~> 0.7.2'
   gem 'meta_request',               '~> 0.2.8'
 end
@@ -57,10 +57,10 @@ end
 # Test environment gems
 group :test do
   # Fast Faker for dummy data creation
-  gem 'ffaker',                     '~> 1.22.1'
+  gem 'ffaker',                     '~> 1.23.0'
 
   # Object factory
-  gem 'factory_girl_rails',         '~> 4.3.0'
+  gem 'factory_girl_rails',         '~> 4.4.0'
 
   # ActiveModel and ActiveRecord test helpers
   gem 'shoulda-matchers',           '~> 2.5.0'
