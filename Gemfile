@@ -18,6 +18,10 @@ gem 'uglifier',                   '>= 1.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails',               '~> 3.1.0'
 
+# Turbolinks
+gem 'turbolinks',                 '~> 2.2.1'
+gem 'jquery-turbolinks',          '~> 2.0.2'
+
 # Use HAML for HTML templates
 gem 'haml-rails',                 '~> 0.5.3'
 
