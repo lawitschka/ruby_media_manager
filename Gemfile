@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 # Core gems
 gem 'rails',                      '~> 4.0.3'
 
-# Database (PostgreSQL)
-gem 'pg',                         '~> 0.17.1'
+# SQLite
+gem 'sqlite3',                    '~> 1.3.8'
 
 # Exception tracker
 gem 'airbrake',                   '~> 3.1.15'
@@ -34,9 +34,6 @@ gem 'streamio-ffmpeg',            '~> 1.0.0'
 
 # Gems only used in test and development environments
 group :test, :development do
-  # SQLite support for faster tests
-  gem 'sqlite3',                  '~> 1.3.8'
-
   # Guard
   gem 'guard',                      '~> 2.4.0',   require: false
   gem 'guard-pow',                  '~> 2.0.0',   require: false
