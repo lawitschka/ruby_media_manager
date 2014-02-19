@@ -13,7 +13,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
 RSpec.configure do |config|
-  # ## Mock Framework
+  # Mock Framework
   config.mock_with :rr
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
@@ -31,4 +31,7 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+
+  # Include FactoryGirl methods
+  config.include FactoryGirl::Syntax::Methods
 end
