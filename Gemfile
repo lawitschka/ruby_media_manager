@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
 # Core gems
-gem 'rails',                      '~> 4.0.2'
+gem 'rails',                      '~> 4.0.3'
 
 # Database (PostgreSQL)
 gem 'pg',                         '~> 0.17.1'
+
+# Exception tracker
+gem 'airbrake',                   '~> 3.1.15'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails',               '~> 4.0.0'
