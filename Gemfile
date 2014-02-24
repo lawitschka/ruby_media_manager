@@ -31,6 +31,12 @@ gem 'haml-rails',                 '~> 0.5.3'
 # Video processing
 gem 'streamio-ffmpeg',            '~> 1.0.0'
 
+# External APIs
+gem 'tmdb-api',                   '~> 0.0.5'
+
+# Filesystem watch
+gem 'rb-fsevent',                 '~> 0.9.4'
+
 
 # Gems only used in test and development environments
 group :test, :development do
